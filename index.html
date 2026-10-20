@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double&family=Handjet:wght,ELSH@100..900,2&family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <video autoplay loop muted playsinline id="bg-video">
+        <source src="video/backgroundBody.mp4" type="video/mp4">
+    </video>
+    
+    <header class="header">
+           <nav class="nav-links">
+                <a href="#about-me">About Me</a> 
+                <a href="#showcase">Showcase</a> 
+                <a href="#skills-tools">Skills & Tools</a> 
+                <a href="#featured-projects">Projects</a> 
+                <a href="#education">Education</a>
+            </nav>
+    </header>
+
+    <div class="container">
+        
+        <!-- Section 1 about me-->
+        <section class="section parallax-section" id="about-me">
+            <div class="about-container">
+                <!--Left side Content-->
+                <div class="profile">
+                    <h1> PAOLO CABLAO</h1>
+                    <h4 class="tagline"> Game developer | VFX & 3d Artist </h4>
+                    <p>Game Developer & Real-Time VFX Artist with proven expertise in crafting custom visual effects, dynamic character rigging, and stylized ability concepts. Advanced technical skillset spanning Blender, Roblox Studio, and specialized animation workflows, driving creative projects from raw mesh generation to polished, game-ready assets.</p>
+            
+                    <table class="contact-links">
+                        <tr>
+                            <td> 
+                                <a href="https://github.com/Pawensi" target="_blank" >
+                                    <img src="images/github.png"  alt="githublogo" width="50" height="50" class="link-icon">
+                                </a> 
+                            </td>
+                            <td> 
+                                <a href="https://x.com/pawensi" target="_blank">
+                                    <img src="images/twitter.png" alt="x icon" width="50" height="50" class="link-icon">
+                                </a>
+                            </td>
+                            <td> 
+                                <a href="https://discord.com/users/pawensi" target="_blank">
+                                    <img src="images/discord.png" alt="discordlogo" width="50" height="50" class="link-icon">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>           
+                </div>       
+
+                <!---Right Side Content-->
+                <img src="images/Profile.jpg"  class="profile-img">
+            </div>
+        </section>
+
+        <!--Section 2 Showcase--> 
+        <section class="section solid-section" id="showcase">
+            <h2 class="section-title"> VFX showcase</h2>
+
+            <div class="showcase-grid">
+                <div class="showcase-1">
+                    <div class="showcase-frame-container">
+                        <video autoplay loop muted playsinline class="showcase-video">
+                            <source src="video/1stshowcase.mp4" type="video/mp4">
+                        </video>
+                        <div class="border-overlay"></div>
+                    </div>
+                    <p class="caption">Real-time energy beam and particle burst effect featuring <br> custom muzzle flashes, radial shockwave rings, <br> and shimmering spark projectiles in a 3D workspace.</p>
+                </div>
+                <div class="showcase-2">
+                    <div class="showcase-frame-container">
+                        <video autoplay loop muted playsinline class="showcase-video">
+                            <source src="video/2ndshowcase.mp4" type="video/mp4">
+                        </video>
+                        <div class="border-overlay"></div>
+                    </div>
+                    <p class="caption">Real-time magical energy orb showcases featuring custom <br>elemental aura particle systems, rotating magic circles, <br>air distortion rings, and dynamic emission effects <br>across diverse color palettes.</p>
+                </div>
+                <div class="showcase-3">
+                    <div class="showcase-frame-container">
+                        <video autoplay loop muted playsinline class="showcase-video">
+                            <source src="video/3rdshowcase.mp4" type="video/mp4">
+                        </video>
+                        <div class="border-overlay"></div>
+                    </div>
+                    <p class="caption">Real-time floating character aura effect featuring dense <br>swirling volumetric smoke, gentle energy auras, <br>and smooth opacity fade transitions.</p>
+                </div>
+            </div>
+
+             <div class="showcase-grid2">
+                <div class="showcase-4">
+                    <div class="showcase-frame-container">
+                        <video autoplay loop muted playsinline class="showcase-video">
+                            <source src="video/4thshowcase.mp4" type="video/mp4">
+                        </video>
+                        <div class="border-overlay"></div>
+                    </div>
+                    <p class="caption">Real-time diabolic aura effect featuring a floating<br> character, intricate rotating crimson magic circles, <br>ascending demonic energy columns, and particle runes.</p>
+                </div>
+                <div class="showcase-5">
+                    <div class="showcase-frame-container">
+                        <video autoplay loop muted playsinline class="showcase-video">
+                            <source src="video/5thshowcase.mp4" type="video/mp4">
+                        </video>
+                        <div class="border-overlay"></div>
+                    </div>
+                    <p class="caption">Real-time dark purple character aura effect featuring <br>volatile energy streams, floating arcane runes, <br>and ambient particle emissions.</p>
+                </div>
+                <div class="showcase-6">
+                    <div class="showcase-frame-container">
+                        <video autoplay loop muted playsinline class="showcase-video">
+                            <source src="video/6thshowcase.mp4" type="video/mp4">
+                        </video>
+                        <div class="border-overlay"></div>
+                    </div>
+                    <p class="caption">Atmospheric environment concept featuring a <br>blood-red moon backdrop, reflective water surface <br>shaders, and a silhouetted samurai character silhouette.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Section 3 Skills & Tools-->
+        <section class="section parallax-section section-skills" id="skills-tools">
+            <h2 class="section-title">Skills & Tools</h2>
+
+            <div class="skills-grid">
+                <div class="skill-card interactive-card">
+                    <h3>• Software & Tools </h3>
+                    <p>Roblox Studio, Blender, Photoshop, Photopea, Krita</p>
+                </div>
+
+                <div class="skill-card interactive-card">
+                    <h3>• VFX & 3D Model</h3>
+                    <p>Particle Systems, Animation Sync in VFX, Aura Effects, Stylized Model Texturing, PBR Texturing, Custom Character Rigging</p>
+                </div>
+
+                <div class="skill-card interactive-card">
+                    <h3>• Programming Language </h3>
+                    <p>Lua, Python, CSS, HTML, Java, JavaScript, PHP</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Section 4 Feature Projects-->
+        <section class="section solid-section" id="featured-projects">
+            <h2 class="section-title">Featured Projects</h2>
+
+            <div class="project-grid">
+                <article class="project-card interactive-card">
+                    <div class="card-background"></div>
+                    <div class="magical-border"></div>
+                    <div class="project-content">
+                        <h3>Sari Sari Store Anomaly <span class="dev-note"><br>(In development project)</span></h3>
+                        <p class="project-role">Lead Builder</p>
+                        <ul>
+                            <li>I accurately modeled the houses and various small background objects.</li>
+                            <li>I established the atmospheric lighting and overall mood of the game environment.</li>
+                            <li>I created reusable building assets and kits utilizing PBR texturing techniques.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="project-card interactive-card">
+                    <div class="card-background"></div>
+                    <div class="magical-border"></div>
+                    <div class="project-content">
+                        <h3>PUP Marketplace</h3>
+                        <p class="project-role">2nd Lead Creatives</p>
+                        <ul>
+                            <li>I designed our interactive prototype application using Figma.</li>
+                        </ul>
+                        <a href="https://www.figma.com/proto/B79rgHteTlLfHvQfm5fC6g/HCI-%7C-Group-6?node-id=2193-11203&t=0sntm3qTz4Hwuho8-1&starting-point-node-id=1678%3A20518" target="_blank" class="proto-link">View Prototype</a>
+                    </div>
+                </article>
+
+                <article class="project-card interactive-card">
+                    <div class="card-background"></div>
+                    <div class="magical-border"></div>
+                    <div class="project-content">
+                        <h3>Clinical Appointment System <span class="dev-note"><br>(Final project 2nd year)</span></h3>
+                        <p class="project-role">Lead Developer / Leader</p>
+                        <ul>
+                            <li>I spearheaded the creation of the system from the ground up.</li>
+                        </ul>
+                        <a href="https://www.figma.com/proto/B79rgHteTlLfHvQfm5fC6g/HCI-%7C-Group-6?node-id=2193-11203&t=0sntm3qTz4Hwuho8-1&starting-point-node-id=1678%3A20518" target="_blank" class="proto-link">View Prototype</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--Section 5 education-->
+        <section class="section parallax-section section-education" id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education-card interactive-card">
+                <div class="card-background"></div>
+                <div class="magical-border"></div>
+                <div class="project-content">
+                    <h3>Bachelor Of Science In Information Technology (BSIT)</h3>
+                    <p>Polytechnic University of the Philippines</p>
+                    <p class="grad-year"><em>Expected Graduation: 2028</em></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© 2026 Paolo Cablao (Pawensi). Built with HTML, CSS & JavaScript.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
